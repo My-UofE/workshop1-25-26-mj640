@@ -6,7 +6,7 @@ def play_game_1(min_x=0, max_x=20):
     print(f"Please think of a number between {min_x} and {max_x}")
     input("Press enter when you have chosen your number (do not tell me it!)\n")
     poss_values = list(range(min_x,max_x+1))
-    
+
     game_ended = False
 
     n = 0
